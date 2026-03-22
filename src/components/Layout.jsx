@@ -18,7 +18,7 @@ export const Layout = (props) => {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
         <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.10/dist/cdn.min.js" onerror="window.__alpineFailed=true"></script>
+        <script defer src="/alpine.min.js" onerror="window.__alpineFailed=true"></script>
         <script>
           window.__alpineLoaded = false;
           document.addEventListener('alpine:init', () => { window.__alpineLoaded = true; });
